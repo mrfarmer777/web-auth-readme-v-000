@@ -1,5 +1,6 @@
 class SearchesController < ApplicationController
   def search
+    resp=Faraday.get()
   end
 
   def foursquare
