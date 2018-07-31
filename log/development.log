@@ -1507,3 +1507,35 @@ Processing by SearchesController#search as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PWQV5L0QX22KV1K5IIOB5HRHIE4ROX3XZGE3JYIMLL2G1MDP" for 76.245.251.194 at 2018-07-31 03:35:42 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PWQV5L0QX22KV1K5IIOB5HRHIE4ROX3XZGE3JYIMLL2G1MDP"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 109ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:42 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3DUHR2KNUFA5DAR0WAGIDRSWNU5E3INKZLY24PKIVARU2QKP" for 76.245.251.194 at 2018-07-31 03:35:48 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3DUHR2KNUFA5DAR0WAGIDRSWNU5E3INKZLY24PKIVARU2QKP"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:48 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
