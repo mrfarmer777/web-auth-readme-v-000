@@ -1280,3 +1280,278 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:12:54 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:15:28 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OTLEVILGMM4I0FOIHFWDPKZ4NFPHWXZP0KWRDVMTSNJ0GRNU" for 76.245.251.194 at 2018-07-31 03:15:35 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.9ms)
+
+
+Started GET "/auth?code=OTLEVILGMM4I0FOIHFWDPKZ4NFPHWXZP0KWRDVMTSNJ0GRNU" for 76.245.251.194 at 2018-07-31 03:26:18 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/mrfarmer777/web-auth-readme-v-000/app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end):
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.9ms)
+
+
+Started GET "/auth?code=KW1ODEZY0KMLKSY3UHWZLQCBMGNHY3FBUHCDHGNQFRJEGAT2" for 76.245.251.194 at 2018-07-31 03:26:32 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/mrfarmer777/web-auth-readme-v-000/app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end):
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.9ms)
+
+
+Started GET "/auth?code=KW1ODEZY0KMLKSY3UHWZLQCBMGNHY3FBUHCDHGNQFRJEGAT2" for 76.245.251.194 at 2018-07-31 03:26:41 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/mrfarmer777/web-auth-readme-v-000/app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end):
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.4ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:27:10 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RN3PKFXZQ0LBDXXTGAEOXGD54RYBIGTWFBME1DANWHYSZDJN" for 76.245.251.194 at 2018-07-31 03:27:14 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/mrfarmer777/web-auth-readme-v-000/app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end):
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ']', expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.9ms)
+
+
+Started GET "/auth?code=RN3PKFXZQ0LBDXXTGAEOXGD54RYBIGTWFBME1DANWHYSZDJN" for 76.245.251.194 at 2018-07-31 03:27:29 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"RN3PKFXZQ0LBDXXTGAEOXGD54RYBIGTWFBME1DANWHYSZDJN"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 161ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:27:29 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=K1ZJFUGNQZPETU15WNWGMYBMHFJEJNJRCM4PZYRQYCLPON3D" for 76.245.251.194 at 2018-07-31 03:27:33 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"K1ZJFUGNQZPETU15WNWGMYBMHFJEJNJRCM4PZYRQYCLPON3D"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:27:33 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YQ0ENFHYNJGRSE0RYNR4J5X1A3B0DWRYF0YIC3BDDEFQZN5Z" for 76.245.251.194 at 2018-07-31 03:27:47 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YQ0ENFHYNJGRSE0RYNR4J5X1A3B0DWRYF0YIC3BDDEFQZN5Z"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 134ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:27:48 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=T4SPXMMQKUMV5YN3IPPSBVV51DGRVDSOWB3OUY01JSMDYDF4" for 76.245.251.194 at 2018-07-31 03:30:35 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"T4SPXMMQKUMV5YN3IPPSBVV51DGRVDSOWB3OUY01JSMDYDF4"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:30:35 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4ZBOLG33OOIAUO413EZXNNDMVEISJTQGOTEPRMHD5C4RHHHM" for 76.245.251.194 at 2018-07-31 03:33:38 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4ZBOLG33OOIAUO413EZXNNDMVEISJTQGOTEPRMHD5C4RHHHM"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 35ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:33:39 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WAGKAQ2G1H1TUCELKLHYFVLFSLUCBCVPIEY1FOIX3R53OYHW" for 76.245.251.194 at 2018-07-31 03:35:09 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WAGKAQ2G1H1TUCELKLHYFVLFSLUCBCVPIEY1FOIX3R53OYHW"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 35ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:09 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=N3XPLTCNBZC5VCU4W1X324GUY1N51W4FXMZX0QNEJQNNL2SL" for 76.245.251.194 at 2018-07-31 03:35:15 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"N3XPLTCNBZC5VCU4W1X324GUY1N51W4FXMZX0QNEJQNNL2SL"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:16 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PWQV5L0QX22KV1K5IIOB5HRHIE4ROX3XZGE3JYIMLL2G1MDP" for 76.245.251.194 at 2018-07-31 03:35:42 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PWQV5L0QX22KV1K5IIOB5HRHIE4ROX3XZGE3JYIMLL2G1MDP"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 109ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:42 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3DUHR2KNUFA5DAR0WAGIDRSWNU5E3INKZLY24PKIVARU2QKP" for 76.245.251.194 at 2018-07-31 03:35:48 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3DUHR2KNUFA5DAR0WAGIDRSWNU5E3INKZLY24PKIVARU2QKP"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:48 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HRH10QFIWJL05OO351YDDO1Q0BD5Y5W1QR5Z2Y1EOFAOEIMZ" for 76.245.251.194 at 2018-07-31 03:40:34 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HRH10QFIWJL05OO351YDDO1Q0BD5Y5W1QR5Z2Y1EOFAOEIMZ"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 163ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:40:35 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
