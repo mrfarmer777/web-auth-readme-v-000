@@ -1481,3 +1481,29 @@ Started GET "/auth?code=WAGKAQ2G1H1TUCELKLHYFVLFSLUCBCVPIEY1FOIX3R53OYHW" for 76
 Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by SessionsController#create as HTML
   Parameters: {"code"=>"WAGKAQ2G1H1TUCELKLHYFVLFSLUCBCVPIEY1FOIX3R53OYHW"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 35ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:09 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=N3XPLTCNBZC5VCU4W1X324GUY1N51W4FXMZX0QNEJQNNL2SL" for 76.245.251.194 at 2018-07-31 03:35:15 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"N3XPLTCNBZC5VCU4W1X324GUY1N51W4FXMZX0QNEJQNNL2SL"}
+Redirected to http://67.205.182.198:47708/
+Completed 302 Found in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.245.251.194 at 2018-07-31 03:35:16 +0000
+Cannot render console from 76.245.251.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=EQTX1NQG0J0L00R3IO3HYS2D4JCMUBZ0JRS05GBQ1DJJAKJG&response_type=code&redirect_uri=http%3A%2F%2F67.205.182.198%3A47708%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
