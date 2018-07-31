@@ -6,6 +6,7 @@ class SessionsController < ApplicationController
       req.params["client_id"]=ENV['FOURSQUARE_CLIENT_ID']
       req.params["client_secret"]=ENV["FOURSQUARE_SECRET"]
       req.params["grant_type"]="authorization_code"]
-      req.params["redirect_uri"]=
-
+      req.params["redirect_uri"]="http://67.205.182.198:47708/auth"
+      req.params['code']=params[:code]
+    end
 end
