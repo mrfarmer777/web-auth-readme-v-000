@@ -7,6 +7,10 @@ class ApplicationController < ActionController::Base
   
   private
   
+  def authenticate_user
+    
+  end
+  
   def logged_in?
     !!session[:token]
   end
